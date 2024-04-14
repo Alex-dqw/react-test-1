@@ -1,9 +1,11 @@
 import React from 'react';
+import classes from './user.module.css';
 
-function User() {
+function User({ name, age}) {
   return (
     <div>
-        User
+        <p className={classes.user}>User: {name}</p>
+        <p className={classes.age}>Age: {age}</p>
     </div>
   );
 }
