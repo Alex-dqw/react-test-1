@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.wrapper {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
+.inputValue {
+  color: red;
+  font-size: 30px;
+}
